@@ -1,0 +1,177 @@
+body{
+    margin:0px;
+    padding:0px;
+    font-family: Roboto, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+.whatsappnav{
+    overflow: hidden;
+    background-color: #128c7e;
+    padding: 30px 400px;
+}
+nav a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 60px;
+}
+.navbarlinks a{
+    font-size: 15px;
+    transform: translate(10%,-40%);
+}
+.navbarlists{
+    list-style-type: none;
+
+}
+.displayingflex{
+    display: flex;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+.androidimage{
+    height: 600px;
+    width: 300px;
+    padding: 30px;
+}
+.simple{
+    font-size: 40px;
+}
+.cakephone{
+    height: 500px;
+    width: 450px;
+    padding: 30px;
+}
+.card{
+    height: 860px;
+    width: 600px;
+    background-color: #D8E8EA;
+    margin-left: 300px;
+    text-align: center;
+}
+.circle{
+    margin-top: 90px;
+    height: 400px;
+    width: 400px;
+    background-color: #77d7c8;
+    border-radius: 50%;
+    display: inline-block;
+}
+.cardtwo{
+    height: 860px;
+    width: 600px;
+    background-color: #E7F0E4;
+    text-align: center;
+    margin-left: 950px;
+    margin-top: -860px;
+}
+.button {
+    background-color: #fff;
+    border: 2px solid;
+    border-color: #77d7c8;
+    color: #128c7e;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 30px;
+    margin-left: 840px;
+    margin-top: 80px;
+    padding-bottom: 20px;
+    margin-bottom: 80px;
+}
+.logos{
+    font-size:17px;
+    color:#1ebea5;
+    padding:20px; 
+    margin-left:6px;
+    text-decoration:none;
+}
+.space{
+    margin-left:-20px;
+    padding-right:20px;
+}
+.footer{
+    left:0;
+    bottom:0;
+    width:100%;
+    height: 242px;
+    background-color: #273443;
+}
+.text{
+    display:flex;
+    font-size: 14px;
+    color: white;
+    margin-left: 19%;
+    padding: 4px;
+}
+.list{
+    list-style-type: none;
+    margin: 50px;
+
+}
+.listelement{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+}
+.listelement a{
+  margin-bottom: 2000px;  
+}
+.footerone{
+    left:0;
+    bottom: 0;
+    width: 100%;
+    height: 78px;
+    background-color: #1c1e21;
+
+}
+.footertext{
+    padding:33px;
+    margin-left: 22%;
+    color: white;
+    float: left;
+    font-size: 13px;
+}
+.pclass{
+    display: inline;
+    color: white;
+}
+.working{
+  text-decoration: none;
+  position: relative;
+  right: -600px;
+  bottom: -30px;
+  color: white;  
+  font-size: 13px;
+}
+.moving{
+    margin-left:9px;
+}
+.world{
+    margin-right:12px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .whatsappnav{
+        /* overflow: hidden;
+        background-color: #128c7e; */
+        /* padding: 30px 400px; */
+        width:100%;
+        height:20px;
+    }
+    nav a{
+        float: left;
+        color: white;
+        text-decoration: none;
+        font-size: 10px;
+        /* padding-left: 60px; */
+    }
+    .navbarlinks a{
+        font-size: 15px;
+        /* transform: translate(10%,-40%); */
+    }
+
+}
